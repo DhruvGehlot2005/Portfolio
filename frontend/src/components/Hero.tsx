@@ -68,14 +68,17 @@ const Hero: React.FC = () => {
                                     <span className="material-symbols-outlined text-sm">arrow_downward</span>
                                 </motion.button>
                                 
-                                <motion.button
+                                <motion.a
+                                    href="/Resume.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
                                     className="px-8 py-3 bg-white/5 border border-white/10 text-white font-black text-xs uppercase tracking-widest rounded-lg hover:border-primary/40 transition-colors flex items-center gap-2"
                                 >
                                     Download CV
                                     <span className="material-symbols-outlined text-sm">download</span>
-                                </motion.button>
+                                </motion.a>
                             </div>
                         </div>
                     </div>

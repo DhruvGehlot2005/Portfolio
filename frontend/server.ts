@@ -31,9 +31,10 @@ async function build() {
     console.log("Compiling CSS...");
     await Bun.spawn(["bunx", "tailwindcss", "-i", "./src/styles/globals.css", "-o", "./dist/styles/globals.css", "--minify"]);
 
-    // Ensure index.html is in dist with correct paths
+    // Ensure index.html and resume.pdf are in dist with correct paths
     const html = await Bun.file("./index.html").text();
     await Bun.write("./dist/index.html", html);
+    await Bun.write("./dist/resume.pdf", Bun.file("../resume.pdf"));
 
     console.log("Build complete.");
 }

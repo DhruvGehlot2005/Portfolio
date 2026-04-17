@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
                                 </motion.button>
                                 
                                 <motion.a
-                                    href="/Resume.pdf"
+                                    href="/resume.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     whileHover={{ scale: 1.05 }}

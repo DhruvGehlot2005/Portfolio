@@ -34,7 +34,7 @@ async function build() {
     // Ensure index.html and resume.pdf are in dist with correct paths
     const html = await Bun.file("./index.html").text();
     await Bun.write("./dist/index.html", html);
-    await Bun.write("./dist/resume.pdf", Bun.file("../resume.pdf"));
+    await Bun.write("./dist/resume.pdf", Bun.file("./public/resume.pdf"));
 
     console.log("Build complete.");
 }

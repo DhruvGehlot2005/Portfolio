@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "bun run server.ts",
-    "build": "bun build ./src/index.tsx --outdir ./dist --minify --external \"*.css\" && cp index.html dist/index.html && cp ../resume.pdf dist/resume.pdf && bunx tailwindcss -i ./src/styles/globals.css -o ./dist/styles/globals.css --minify"
+    "build": "bun build ./src/index.tsx --outdir ./dist --minify --external \"*.css\" && cp index.html dist/index.html && cp public/resume.pdf dist/resume.pdf && bunx tailwindcss -i ./src/styles/globals.css -o ./dist/styles/globals.css --minify"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",

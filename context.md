@@ -19,7 +19,7 @@ A high-fidelity, futuristic portfolio website for "Dhruv Gehlot", a Software Eng
 - [x] Project Setup
 - [x] Core Components
 - [x] Visual Polish
-- [x] Content Update (Resume Revamp & Integration)
+- [x] Content Update (Resume Revamp & Integration into /frontend/public)
 - [x] Layout Expansion & Immersive Design
 - [x] Hero Section Rebalancing
 - [x] Expanded Project Repository (8 Projects)
